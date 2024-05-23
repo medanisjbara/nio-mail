@@ -16,7 +16,20 @@ def config_gen(config_file):
         "password": "mypass+*!word",
         "file_path": "bridge_log.txt",
         "bridge": {
-            "address": "room_id",
+            "address": "!your_room_id:matrix.org",
+        },
+        "smtp": {
+            "server": "smtp.example.com",
+            "port": 587,
+            "username": "your_smtp_username",
+            "password": "your_smtp_password",
+        },
+        "imap": {
+            "server": "imap.example.com",
+            "port": 993,
+            "username": "your_imap_username",
+            "password": "your_imap_password",
+            "mailbox": "INBOX",
         },
     }
 
